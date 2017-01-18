@@ -1,0 +1,19 @@
+{
+  "name": "sql-dataviz",
+  "version": "1.0.0",
+  "description": "Learn SQL and explore data visualization with Chart.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLady/sql-dataviz.git"
+  },
+  "author": "helen and di",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheLady/sql-dataviz/issues"
+  },
+  "homepage": "https://github.com/TheLady/sql-dataviz#readme"
+}
