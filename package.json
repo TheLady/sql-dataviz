@@ -1,19 +1,18 @@
 {
-  "name": "sql-dataviz",
-  "version": "1.0.0",
-  "description": "Learn SQL and explore data visualization with Chart.js",
-  "main": "index.js",
+  "name": "node-postgres-sqldv",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheLady/sql-dataviz.git"
-  },
-  "author": "helen and di",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheLady/sql-dataviz/issues"
-  },
-  "homepage": "https://github.com/TheLady/sql-dataviz#readme"
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "pg": "^6.1.0",
+    "serve-favicon": "~2.3.0"
+  }
 }
